@@ -1,7 +1,7 @@
 import React from "react";
 
-const Nav = () => {
-  return <h3>I am the nav bar!</h3>;
+const Nav = props => {
+  return <h3>{props.content}</h3>;
 };
 
 export default Nav;
